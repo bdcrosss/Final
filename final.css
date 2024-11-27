@@ -1,0 +1,222 @@
+.header {
+    background-color: transparent;
+    color: #000000;
+    width: 100%;
+    height:30px;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+    z-index: 12;
+  }
+  
+  .heading {
+    width:100vw;
+    text-align: center;
+    font-size: 600%;
+    font-weight: 800;
+    font-family: PokemonSolid;
+    line-height: 100px;
+    z-index: 99;
+  }
+  
+
+  .nav {
+    width: 100%;
+    height: 70px;
+    background-color: #82eefd;
+    z-index: 9;
+  }
+  
+
+  .piplup:hover {
+    border-color: blue; /* Change the border color on hover */
+    background-color: rgba(18, 152, 219, 0.7); /* Increase opacity of overlay */
+    background-blend-mode: multiply; /* Blend the overlay with the background image */
+    z-index: 103;
+}
+
+.gothorita:hover {
+    border-color: rgb(208, 165, 239);
+    background-color: rgba(122, 18, 219, 0.7); /* Increase opacity of overlay */
+    background-blend-mode: multiply; /* Blend the overlay with the background image */
+    z-index: 103;
+}
+
+.roserade:hover {
+    border-color: #3fe878;; /* Change the border color on hover */
+    background-color: rgba(18, 219, 45, 0.7); /* Increase opacity of overlay */
+    background-blend-mode: multiply; /* Blend the overlay with the background image */
+    z-index: 103;
+}
+
+.darkrai:hover {
+    border-color: red; /* Change the border color on hover */
+    background-color: rgba(5, 5, 5, 0.7); /* Increase opacity of overlay */
+    background-blend-mode: multiply; /* Blend the overlay with the background image */
+    z-index: 103;
+}
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: white;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  
+  .article {
+    margin: 61px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
+    width: 1200px;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/11/pokemon-pokeball-light-pink-desktop-wallpaper-preview.jpg);
+    border-radius: 30px;
+    border: 5px solid black;
+  }
+
+  .piplup {
+    width: 550px;
+    height: 600px;
+    border-radius: 15px;
+    border: 8px solid blue;
+    background-image: url(https://i.redd.it/m4vh906uzqkc1.jpeg);
+    background-size: cover;
+    background-position: 80%;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    z-index: 102;
+    display: flex;
+  }
+  .gothorita {
+    width: 550px;
+    height: 600px;
+    border-radius: 15px;
+    border: 8px solid rgb(208, 165, 239);
+    background-image: url(https://pbs.twimg.com/media/GDCNZG1aUAIZMnz?format=jpg&name=small);
+    background-size: 800px;
+    background-position: 55%;
+    position: absolute;
+    left: 700px;
+    top: 220px;
+    z-index: 102;
+  }
+  .roserade {
+    width: 550px;
+    height: 600px;
+    border-radius: 15px;
+    border: 8px solid #3fe878;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1A-Nf5mSeBQjBx7HzHGE9T_PRAcdpOJ22CvbUY7ommE9ROkwj_4yq4cr7rFoBC9F-eSuSxH3mqsSffUUX2ZITyMUsxQeSJhm2xueR8Puu__lWkuBWsWcvw87jN9z0scgcXweyjFQzlQQ/s1600/Cher_Roserade.png);
+    background-size: cover;
+    background-position: 50%;
+    position: absolute;
+    left: 1350px;
+    top: 220px;
+    z-index: 102;
+  }
+  .darkrai {
+    width: 550px;
+    height: 600px;
+    border-radius: 15px;
+    border: 8px solid red;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/86ee4860-3d0f-4a16-abaa-e8a5fe433c02/db5zc4n-40ae4656-6b40-48da-9c91-4ec5ecd04bbc.png/v1/fill/w_1024,h_660,q_80,strp/darkrai_by_hearttheglaceon_db5zc4n-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjYwIiwicGF0aCI6IlwvZlwvODZlZTQ4NjAtM2QwZi00YTE2LWFiYWEtZThhNWZlNDMzYzAyXC9kYjV6YzRuLTQwYWU0NjU2LTZiNDAtNDhkYS05YzkxLTRlYzVlY2QwNGJiYy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.gXZGVXgqUAHPcuECa7Xz590DcTXMSB5w9u-RH61AhcY);
+    background-size: 1400px;
+    position: absolute;
+    background-position: 50%;
+    left: 2000px;
+    top: 220px;
+    z-index: 102;
+  }
+
+.p {
+font-size: large;
+font-weight: bolder;
+position: absolute;
+top: 500px;
+}
+
+.click {
+    position: absolute;
+    font-size: 50px;
+    font: bolder; 
+    line-height: 80px; 
+    left: 50px; 
+    top: 50px;
+    z-index: 9; 
+    font-family: PokemonSolid;
+}
+
+@font-face {
+    font-family: PokemonSolid;
+    src: url(pokemon-solid.TTF);
+  }
+
+
+    @media (max-width: 3500px) {
+        .piplup, .gothorita, .roserade, .darkrai {
+            width: 35%; 
+        }
+        .article {
+            width: 90%
+        }
+
+        .piplup {
+            left: 8%;
+            top: 300px;
+            background-position: 50%;
+        }
+        .gothorita {
+            left: 56%;
+            top: 300px;
+        }
+        .roserade {
+            left: 8%;
+            top: 1000px; 
+        }
+        .darkrai {
+            left: 56%;
+            top: 1000px; 
+        }
+        .article {
+            left: 50%;
+            top: 700px; 
+            height: 1600px;
+        }
+        .click {
+            top: 1680px;
+        }
+    }
+
+    @media (max-width: 1000px) {
+      .piplup, .gothorita, .roserade, .darkrai {
+        width: 35%; 
+    }
+    .article {
+        width: 90%
+    }
+
+    .piplup {
+        left: 18%;
+        top: 450px;
+        background-position: 50%;
+    }
+    .gothorita {
+        left: 60%;
+        top: 450px;
+    }
+    .roserade {
+        left: 18%;
+        top: 1000px; 
+    }
+    .darkrai {
+        left: 60%;
+        top: 1000px; 
+    }
+    .article {
+        left: 50%;
+        top: 700px; 
+        height: 1600px;
+    }
+}

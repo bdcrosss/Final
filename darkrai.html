@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading {
+    height: 40px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 400%;
+    font-weight: 800;
+    font-family: PokemonSolid;
+    color: white;
+
+  }
+  
+  .darkrai {
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    border: 8px solid red;
+    background-image: url(darkrai.jpg);
+    background-size: cover;
+    background-color: white;
+    background-position: 30%;
+    position: absolute;
+    top: 210px;
+    left: 80px;
+  }
+
+  .darkraiinfo {
+    width: 800px;
+    height: 450px;
+    border-radius: 15px;
+    border: 8px solid red;
+    background-size: cover;
+    background-color: white;
+    background-position: 80%;
+    position: absolute;
+    top: 210px;
+    left: 560px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 70px;
+    background-color: #82eefd;
+    z-index: 9;
+  }
+  
+  .nav li a:hover {
+    background-color: #111;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+  
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
+    height: 650px;
+    width: 1430px;
+    background-color: #000000;
+    border: 5px solid red;
+    border-radius: 30px;
+    font-family: PokemonSolid;
+  }
+  .type {
+    position: absolute;
+    font-size: xx-large;
+    top: -40px;
+    left: 10px;
+    
+  }
+
+  .stats {
+    position: absolute;
+    font-size: xx-large;
+    top: 140px;
+    left: 10px;
+  }
+
+  .dex {
+    position: absolute;
+    font-size: xx-large;
+    top: 320px;
+    left: 10px;
+  }
+
+  @font-face {
+    font-family: PokemonSolid;
+    src: url(pokemon-solid.TTF);
+  }
+
+  .firstimg {
+    width: 200px; 
+    height: auto;
+    position:absolute;
+    top: 10px;
+    left: 120px;
+    margin: 10px 0; 
+    border: 2px solid black;
+}
+.secondimg {
+    width: 400px; 
+    height: auto;
+    position:absolute;
+    top: 110px;
+    left: 230px;
+    margin: 10px 0; 
+    border: 2px solid black;
+}
+
+.entry {
+    position: absolute;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 215px;
+    top: 380px;
+}
+
+.battlelink {
+    position: relative;
+    top: 50px;
+    left: 90px;
+    font-family: PokemonSolid;
+    font-size: large;
+}
+
+.homelink {
+    position: relative;
+    top: 50px;
+    left: 640px;
+    font-family: PokemonSolid;
+    font-size: large;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper"></div>
+<div class="header"><div class="heading">Darkrai</div></div>
+<div class="article"> <div class="battlelink"><a href=https://www.youtube.com/watch?v=PdLHEQdklsE>Click here to see Darkrai in action!</a></div>
+<div class="homelink"><a href=final.html>Click here to go back to the home page!</a></div>
+<div class="darkrai"></div>
+<div class="darkraiinfo">
+    <img src="darklogo.png" alt="dark" class="firstimg">
+    <img src="darkraistats.png" alt="darkstats" class="secondimg">
+    <div class="type">Type:</div>
+    <div class="stats">Base Stats:</div>
+    <div class="dex">Dex Entry:</div>
+    <div class="entry">"To protect itself, it afflicts those around it with nightmares. However, it means no harm."
+    </div>
+</div>
+</body>
+</html>
